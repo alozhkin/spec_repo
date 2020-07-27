@@ -30,14 +30,9 @@ TODO: Add long description of the pod here.
 
   s.platform = :osx
   s.osx.deployment_target = "10.10"
+  s.platform = :ios
+  s.ios.deployment_target = "13.5"
 
   s.source_files = 'example/Classes/**/*'
 
-  # s.resource_bundles = {
-  #   'example' => ['example/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'Cocoa'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
